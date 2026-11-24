@@ -6,6 +6,13 @@ Bu repo; hukuk departmanları, avukatlar, uyum ekipleri ve hukuk operasyonları 
 
 > Önemli: Bu proje hukuki danışmanlık vermez. Üretilen her çıktı avukat/hukukçu incelemesine tabi taslak, araştırma notu veya karar destek çıktısıdır. Kanun, içtihat, süre, tebliğ, yetki, imza ve resmi kaynak kontrolleri somut dosya için ayrıca doğrulanmalıdır.
 
+## English Overview
+
+**Claude Legal Turkish** (`v1.1.0-tr`) is a Turkish-law adaptation of Anthropic's open-source *Claude for Legal* plugin ecosystem. It includes **11 Turkish-law plugins** (**9 adapted** + **2 built natively** for Turkish practice), **127 skills**, **11 specialized plugin agents**, and **5 managed-agent cookbooks** (`diligence-grid`, `docket-watcher`, `launch-radar`, `reg-monitor`, `renewal-watcher`).
+
+- **Covered Turkish practice areas:** Commercial contracts (`commercial-legal`), corporate (`corporate-legal`), litigation (`litigation-legal`), KVKK data protection (`privacy-legal`), employment (`employment-legal`), product/consumer/e-commerce (`product-legal`), regulatory monitoring (`regulatory-legal`), IP (`ip-legal`), AI governance (`ai-governance-legal`), native execution & bankruptcy (`execution-bankruptcy-legal`), and native administrative & tax disputes (`administrative-tax-legal`).
+- **Design & safety:** Operational command/folder names remain compatible with upstream Claude Code plugins; all adapted plugins enforce shared legal guardrails, 2024–2026 Turkish legislative currency tracking, and isolated profile storage (`~/.claude/plugins/config/legal-turkish/`). Four US/third-party folders (`law-student`, `legal-clinic`, `legal-builder-hub`, `cocounsel-legal`) are explicitly kept out of scope. All outputs are drafts subject to lawyer review and do not constitute legal advice.
+
 ## Tasarım Kararı
 
 Operasyonel adlar orijinal repo ile uyumlu tutulur:
