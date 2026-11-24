@@ -1,0 +1,39 @@
+# İdare ve Vergi Uyuşmazlıkları Portföy Kaydı (Örnek Şema)
+# Gerçek dosyalarınızda bu yapıyı Matter klasörünüzde veya Google Drive'da tutabilirsiniz.
+
+portfoy_adi: "Örnek Kurumsal Vergi ve İdari Uyuşmazlık Portföyü"
+son_guncelleme: "2026-11-24"
+para_birimi: "TRY"
+
+uyusmazliklar:
+  - dosya_id: "VRG-2026-001"
+    tur: "vergi_tarhiyat" # vergi_tarhiyat | odeme_emri_6183 | idari_iptal_tam_yargi | idari_para_cezasi | kamu_ihale_4734
+    idare_veya_vergi_dairesi: "Büyük Mükellefler Vergi Dairesi Başkanlığı"
+    teblig_edilen_belge: "2023/KDV & Kurumlar Vergisi İhbarnamesi + 1 Kat Vergi Ziyaı"
+    vergi_asli_try: 2800000.00
+    ceza_tutari_try: 2800000.00
+    tebligat_turu: "GİB e-Tebligat (VUK m. 107/A)"
+    elektronik_ulasma_tarihi: "2026-11-10"
+    kanuni_teblig_tarihi: "2026-11-15" # 5. gün sonu (Pazar'a rastlasa da VUK m. 107/A tebliğ karinesi oluşur; 30. gün Salı 15.12.2026)
+    son_basvuru_veya_dava_tarihi: "2026-12-15" # İYUK m. 7: 30 gün (Vergi Mahkemesi veya VUK Ek m. 1 salt ceza uzlaşması / m. 376 indirim)
+    mahkeme_veya_esas_no: "Henüz dava açılmadı (30 gün karar penceresinde)"
+    yd_durumu: "vergi_davasi_otomatik_durma_m27_4"
+    risk_seviyesi: "yuksek"
+    sonraki_aksiyon: "7524 s. K. nedeniyle vergi aslı uzlaşma dışı olduğundan vergi aslı + ceza için Vergi Mahkemesinde dava vs. yalnızca ceza için Ek m. 1/376 senaryosu YMM ile netleştirilecek."
+    sorumlu: "Vergi Uyuşmazlıkları Avukatı & YMM"
+
+  - dosya_id: "IDR-2026-002"
+    tur: "odeme_emri_6183"
+    idare_veya_vergi_dairesi: "Kadıköy Vergi Dairesi / İlgili Kurum Tahsil Birimi"
+    teblig_edilen_belge: "6183 m. 55 Ödeme Emri (Eski Dönem İdari Para Cezası Kaynaklı)"
+    vergi_asli_try: 420000.00
+    ceza_tutari_try: 0.00
+    tebligat_turu: "UETS (7201 m. 7/a)"
+    elektronik_ulasma_tarihi: "2026-11-15"
+    kanuni_teblig_tarihi: "2026-11-20" # 5. gün sonu
+    son_basvuru_veya_dava_tarihi: "2026-12-07" # 15. gün 05.12.2026 Cumartesi -> İYUK m. 8/2 gereği 07.12.2026 Pazartesi mesai bitimi; tahsilat durmaz -> acil YD!
+    mahkeme_veya_esas_no: "İstanbul İdare / Vergi Mahkemesi (Görev denetimi yapılacak)"
+    yd_durumu: "acil_yd_talebi_gerekli"
+    risk_seviyesi: "kritik"
+    sonraki_aksiyon: "6183 m. 58 uyarınca 15 gün içinde dava + İYUK m. 27 yürütmenin durdurulması dilekçesi hazırlanacak; zamanaşımı (m. 102) ve ödeme kayıtları kontrol edilecek."
+    sorumlu: "İdare ve Vergi Avukatı"

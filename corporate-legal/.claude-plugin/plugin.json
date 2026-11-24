@@ -1,0 +1,8 @@
+{
+  "name": "corporate-legal",
+  "version": "1.1.0-tr",
+  "description": "Türk şirketler hukuku (TTK, SPK, Rekabet Kurumu, MERSİS/Ticaret Sicili) odaklı M&A veri odası ve due diligence tablolu inceleme, beyan listeleri, kapanış kontrol listeleri, yönetim kurulu/genel kurul kararları ve tüzel kişi uyum takibi iş akışları.",
+  "author": {
+    "name": "Legal Turkish Adaptation"
+  }
+}

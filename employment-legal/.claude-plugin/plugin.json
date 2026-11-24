@@ -1,0 +1,8 @@
+{
+  "name": "employment-legal",
+  "version": "1.1.0-tr",
+  "description": "Türk iş hukuku (4857 s. İş Kanunu, SGK, İŞKUR, İSG, 7036/6325 s. Zorunlu Arabuluculuk) iş akışları: işe alım ve iş sözleşmesi incelemesi, fesih ve arabuluculuk risk kontrolü, ücret/fazla mesai Q&A, çalışma statüsü, izin takibi, iç soruşturma ve işyeri politikaları.",
+  "author": {
+    "name": "Legal Turkish Adaptation"
+  }
+}

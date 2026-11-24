@@ -1,0 +1,129 @@
+{
+  "name": "legal-turkish",
+  "owner": {
+    "name": "Legal Turkish Adaptation",
+    "email": "info@hukukcuapp.com"
+  },
+  "plugins": [
+    {
+      "name": "commercial-legal",
+      "source": "./commercial-legal",
+      "description": "Uyarlandı. Türk ticari sözleşme pratiğine göre uyarlandı.",
+      "author": {
+        "name": "Legal Turkish Adaptation"
+      }
+    },
+    {
+      "name": "privacy-legal",
+      "source": "./privacy-legal",
+      "description": "Uyarlandı. KVKK pratiğine göre uyarlandı.",
+      "author": {
+        "name": "Legal Turkish Adaptation"
+      }
+    },
+    {
+      "name": "product-legal",
+      "source": "./product-legal",
+      "description": "Uyarlandı. Türk ürün, tüketici, reklam ve e-ticaret pratiğine göre uyarlandı.",
+      "author": {
+        "name": "Legal Turkish Adaptation"
+      }
+    },
+    {
+      "name": "corporate-legal",
+      "source": "./corporate-legal",
+      "description": "Uyarlandı. Türk şirketler hukuku pratiğine göre uyarlandı.",
+      "author": {
+        "name": "Legal Turkish Adaptation"
+      }
+    },
+    {
+      "name": "employment-legal",
+      "source": "./employment-legal",
+      "description": "Uyarlandı. Türk iş hukuku pratiğine göre uyarlandı.",
+      "author": {
+        "name": "Legal Turkish Adaptation"
+      }
+    },
+    {
+      "name": "regulatory-legal",
+      "source": "./regulatory-legal",
+      "description": "Uyarlandı. Türkiye regülasyon izleme pratiğine göre uyarlandı.",
+      "author": {
+        "name": "Legal Turkish Adaptation"
+      }
+    },
+    {
+      "name": "ai-governance-legal",
+      "source": "./ai-governance-legal",
+      "description": "Uyarlandı (1.1.0-tr). KVKK, 7545 s. Kanun, FSEK, TİHEK, TKHK, TTK ve sınır ötesi AB AI Act ekseninde yapay zekâ yönetişimi.",
+      "author": {
+        "name": "Legal Turkish Adaptation"
+      }
+    },
+    {
+      "name": "litigation-legal",
+      "source": "./litigation-legal",
+      "description": "Uyarlandı. Türkiye yargı ve dava pratiğine göre uyarlandı.",
+      "author": {
+        "name": "Legal Turkish Adaptation"
+      }
+    },
+    {
+      "name": "law-student",
+      "source": "./law-student",
+      "description": "Uyarlanmadı. ABD hukuk eğitimi/bar prep modeline dayandığı için kapsam dışında bırakıldı.",
+      "author": {
+        "name": "Anthropic / not adapted for Legal Turkish"
+      }
+    },
+    {
+      "name": "legal-clinic",
+      "source": "./legal-clinic",
+      "description": "Uyarlanmadı. US law school clinic modeline dayandığı için kapsam dışında bırakıldı.",
+      "author": {
+        "name": "Legal Turkish Adaptation"
+      }
+    },
+    {
+      "name": "legal-builder-hub",
+      "source": "./legal-builder-hub",
+      "description": "Uyarlanmadı. Hukuki içerik modülü değil, teknik/meta araç olduğu için kapsam dışında bırakıldı.",
+      "author": {
+        "name": "Legal Turkish Adaptation"
+      }
+    },
+    {
+      "name": "ip-legal",
+      "source": "./ip-legal",
+      "description": "Uyarlandı (1.1.0-tr). Türk fikri ve sınai mülkiyet hukuku (FSEK, SMK, 5651, TRABİS, TÜRKPATENT/WIPO) pratiğine göre uyarlandı.",
+      "author": {
+        "name": "Legal Turkish Adaptation"
+      }
+    },
+    {
+      "name": "execution-bankruptcy-legal",
+      "source": "./execution-bankruptcy-legal",
+      "description": "Yerli Eklenti (1.1.0-tr). Türk İcra ve İflas Hukuku (2004 s. İİK, 7201 s. Tebligat K., UETS, 89/1-2-3, e-satış, konkordato ve iflas) için sıfırdan tasarlandı.",
+      "author": {
+        "name": "Legal Turkish Adaptation"
+      }
+    },
+    {
+      "name": "administrative-tax-legal",
+      "source": "./administrative-tax-legal",
+      "description": "Yerli Eklenti (1.1.0-tr). Türk İdare ve Vergi Uyuşmazlıkları (2577 s. İYUK, 213 s. VUK, 7524 s. K., 6183 s. AATUHK, 5326 ve 4734 s. KİK) için sıfırdan tasarlandı.",
+      "author": {
+        "name": "Legal Turkish Adaptation"
+      }
+    },
+    {
+      "name": "cocounsel-legal",
+      "source": "./external_plugins/cocounsel-legal",
+      "description": "Uyarlanmadı. Üçüncü taraf Westlaw/Practical Law plugin'i olduğu için değiştirilmedi.",
+      "author": {
+        "name": "Thomson Reuters"
+      }
+    }
+  ]
+}

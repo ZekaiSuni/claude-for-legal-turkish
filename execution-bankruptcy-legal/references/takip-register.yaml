@@ -1,0 +1,45 @@
+# İcra Takip ve Konkordato/İflas Portföy Kaydı (Örnek Şema)
+# Gerçek dosyalarınızda bu yapıyı Matter klasörünüzde veya Google Drive'da tutabilirsiniz.
+
+portfoy_adi: "Örnek Kurumsal İcra ve Tahsilat Portföyü"
+son_guncelleme: "2026-11-24"
+para_birimi: "TRY"
+
+dosyalar:
+  - dosya_id: "ICR-2026-001"
+    icra_dairesi: "İstanbul Anadolu 14. İcra Müdürlüğü"
+    esas_no: "2026/18420 E."
+    takip_turu: "kambiyo_ozgu_haciz" # ilamsiz_genel | kambiyo_ozgu_haciz | ilamli | kira_tahliye | rehin | ihtiyati_haciz
+    taraf_rolu: "alacakli" # alacakli | borclu | ucuncu_kisi_89
+    karsi_taraf: "Örnek Lojistik A.Ş."
+    takip_cikisi_tutari: 1450000.00
+    para_birimi: "TRY"
+    tebligat_turu: "UETS"
+    uets_ulasma_tarihi: "2026-11-12"
+    kanuni_teblig_tarihi: "2026-11-17" # 7201 m. 7/a uyarınca 5. gün sonu [doğrula]
+    son_itiraz_veya_odeme_tarihi: "2026-11-23" # Kambiyo 5. gün 22.11.2026 Pazar -> İİK m. 19/4 gereği 23.11.2026 Pazartesi mesai bitimi; ödeme 10 gün: 27.11.2026
+    kesinlesme_durumu: "kesinlesme_bekliyor"
+    haciz_tarihi: null
+    satis_isteme_son_tarihi: null
+    risk_seviyesi: "yuksek"
+    sonraki_aksiyon: "10 günlük kambiyo ödeme süresi (27.11.2026) dolumu sonrası UYAP TAKBİS/EGM/banka 89/1 haciz talepleri hazırlanacak."
+    sorumlu: "Kıdemli İcra Avukatı"
+
+  - dosya_id: "ICR-2026-002"
+    icra_dairesi: "İstanbul 8. İcra Müdürlüğü (Bağlı: İstanbul 2. Asliye Ticaret Mahkemesi Konkordato)"
+    esas_no: "2025/9410 E."
+    takip_turu: "ilamsiz_genel"
+    taraf_rolu: "alacakli"
+    karsi_taraf: "Anadolu Yapı Taahhüt Ltd. Şti."
+    takip_cikisi_tutari: 680000.00
+    para_birimi: "TRY"
+    tebligat_turu: "İlan (Basın İlan / İİK m. 299)"
+    uets_ulasma_tarihi: null
+    kanuni_teblig_tarihi: "2026-11-14"
+    son_itiraz_veya_odeme_tarihi: "2026-11-30" # İİK m. 299 komiser ilanından 15. gün 29.11.2026 Pazar -> İİK m. 19/4 gereği 30.11.2026 Pazartesi mesai bitimi
+    kesinlesme_durumu: "kesin_muhlet_duran"
+    haciz_tarihi: "2025-12-10"
+    satis_isteme_son_tarihi: "2026-12-10" # İİK m. 294 mühlet durması nedeniyle süre işleyişi dosya özelinde denetlenmeli
+    risk_seviyesi: "kritik"
+    sonraki_aksiyon: "İİK m. 299 uyarınca 30.11.2026 öncesi konkordato komiserliğine dayanak fatura ve kesinleşme şerhi ile yazılı alacak bildirimi yapılacak."
+    sorumlu: "Hukuk Müşaviri"

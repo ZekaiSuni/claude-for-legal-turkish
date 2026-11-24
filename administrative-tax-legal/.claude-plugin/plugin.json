@@ -1,0 +1,8 @@
+{
+  "name": "administrative-tax-legal",
+  "version": "1.1.0-tr",
+  "description": "Türk İdare ve Vergi Uyuşmazlıkları eklentisi — 2577 s. İYUK (iptal/tam yargı, yürütmenin durdurulması, ivedi yargılama), 213 s. VUK (vergi incelemesi, 7524 s. K. sonrası uzlaşma/indirim/dava), 6183 s. AATUHK (ödeme emrine 15 gün itiraz, tecil, AYM iptal kararı), 5326 s. Kabahatler K. ve 4734 s. KİK süreçleri için yerli uyarlama.",
+  "author": {
+    "name": "Legal Turkish Adaptation"
+  }
+}

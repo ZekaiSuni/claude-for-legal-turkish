@@ -1,0 +1,8 @@
+{
+  "name": "litigation-legal",
+  "version": "1.1.0-tr",
+  "description": "Türkiye yargı ve dava pratiği (UYAP, UETS 7201 s. m. 7/a, HMK, CMK, Av.K. m. 36, 6325 s. Arabuluculuk) ekseninde dava portföyü, süre takibi, hukuki saklama, ihtarname, dış büro koordinasyonu, dava unsur tablosu, kronoloji ve dilekçe taslağı yönetimi.",
+  "author": {
+    "name": "Legal Turkish Adaptation"
+  }
+}

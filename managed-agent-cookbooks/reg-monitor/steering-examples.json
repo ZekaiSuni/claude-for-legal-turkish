@@ -1,0 +1,14 @@
+[
+  {
+    "event": "2026-05-12 itibarıyla Resmî Gazete, KVKK, Rekabet ve SPK kaynaklarını kontrol et, önem eşiği: medium",
+    "description": "Zamanlanmış haftalık Türkiye düzenleyici tarama özeti"
+  },
+  {
+    "event": "Derin kontrol: KVKK yurt dışına aktarım ve standart sözleşme bildirim rehberi güncellemesi, alan: privacy",
+    "description": "Bilinen bir Kurul duyurusu veya mevzuat değişikliği için hedefli kontrol"
+  },
+  {
+    "event": "SPK ve BDDK tebliğ değişikliğine karşı iç uyum politikaları gap kontrolü yap",
+    "description": "İşaretlenen düzenleyici gelişme üzerinde politika boşluk analizi"
+  }
+]

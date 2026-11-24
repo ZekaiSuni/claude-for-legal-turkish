@@ -1,0 +1,25 @@
+{
+  "mcpServers": {
+    "Slack": {
+      "type": "http",
+      "url": "https://mcp.slack.com/mcp",
+      "title": "Slack",
+      "description": "Mesajlarda arama yapın, kanalları okuyun, şirket içi tartışmaları bulun. (KVKK'ya dikkat ediniz)."
+    },
+    "Google Drive": {
+      "type": "http",
+      "url": "https://drivemcp.googleapis.com/mcp/v1",
+      "title": "Google Drive",
+      "description": "Google Drive'da arama yapın, belgeleri okuyun ve getirin. (Önemli: Özel Nitelikli Kişisel Veri aktarımına dikkat)."
+    }
+  },
+  "recommendedCategories": [
+    "documents",
+    "chat",
+    "email",
+    "legal-research",
+    "compliance",
+    "regulatory",
+    "risk-management"
+  ]
+}

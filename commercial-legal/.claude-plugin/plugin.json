@@ -1,0 +1,8 @@
+{
+  "name": "commercial-legal",
+  "version": "1.1.0-tr",
+  "description": "Türk ticari sözleşme hukuku (TBK, TTK, TKHK, 6325 s. Arabuluculuk) ekseninde tedarikçi, gizlilik (NDA) ve SaaS/abonelik sözleşmelerini inceler; yenileme/iptal sürelerini, KEP/TTK m. 18/3 bildirimlerini, eskalasyonları ve yönetici özetlerini yönetir.",
+  "author": {
+    "name": "Legal Turkish Adaptation"
+  }
+}

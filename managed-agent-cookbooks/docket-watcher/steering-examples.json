@@ -1,0 +1,14 @@
+[
+  {
+    "event": "İstanbul 3. Asliye Ticaret Mahkemesi 2026/123 E. dosyasını tara, matter M-2026-042",
+    "description": "Tekil ticari dava dosyası UYAP evrak taraması"
+  },
+  {
+    "event": "Günlük tarama: önümüzdeki 14 gün içinde duruşması olan tüm aktif dosyalar",
+    "description": "Yaklaşan duruşmalar için zamanlanmış portföy taraması"
+  },
+  {
+    "event": "Yeni evrak tespit edildi: M-2026-042 dosyasında Bilirkişi Raporu eklendi, HMK m.281 itiraz süresini hesapla",
+    "description": "Belirli bir evrak için olay tetiklemeli taslak süre hesaplama"
+  }
+]

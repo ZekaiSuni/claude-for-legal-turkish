@@ -1,0 +1,8 @@
+{
+  "name": "law-student",
+  "version": "1.0.2-not-adapted-tr",
+  "description": "Uyumsuz / kapsam dışı: ABD hukuk eğitimi, bar prep, MBE/UBE/NextGen, case brief, IRAC ve Socratic/cold-call varsayımlarına dayanır. Legal Turkish kapsamında Türk hukuk fakültesi veya HMGS/İYÖS sistemi için uyarlanmamıştır.",
+  "author": {
+    "name": "Anthropic / not adapted for Legal Turkish"
+  }
+}

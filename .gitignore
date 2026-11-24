@@ -1,0 +1,15 @@
+.DS_Store
+*.skill
+/logs/
+/outputs/
+/.claude/
+__pycache__/
+*.pyc
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
